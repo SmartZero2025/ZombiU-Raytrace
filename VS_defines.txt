@@ -1,0 +1,26 @@
+//----------------------------------------------------------//
+// Defines for Vertex Shaders that are common to all Fx     //
+// Note : is is recommended to start from the highest bits  //
+// because dynamic defines used lower bits.                 //
+// Defines common to VS and PS must have the same value     //
+// in both files.                                           //
+//----------------------------------------------------------//
+
+USE_SUN				            0x0008000000000000;
+BOX_ENV0			            0x0008000000000000;
+BOX_ENV1			            0x0008000000000000;
+USE_FOG				            0x0008000000000000;
+USE_SUN_SHADOW		            0x0000800000000000;
+USE_SHADOW_FORWARD              0x0000400000000000;
+MSAA2X							0x0000200000000000;
+USE_RLI1                        0x0000100000000000;
+USE_RLI2                        0x0000080000000000;
+USE_GEOM0                       0x0000040000000000;
+USE_GEOM1                       0x0000020000000000;
+USE_GEOM2                       0x0000010000000000;
+USE_ISO_PROJ		            0x0000008000000000;
+USE_COMPRESSED_POS              0x0000004000000000;
+USE_INSTANCING_COLOR2           0x0000002000000000;
+USE_INSTANCING                  0x0000001000000000;
+USE_PLANAR1                     0x0000000800000000;
+USE_PLANAR2                     0x0000000400000000;

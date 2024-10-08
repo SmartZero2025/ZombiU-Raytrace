@@ -1,0 +1,25 @@
+//----------------------------------------------------------//
+// Defines for Fragment Shaders that are common to all Fx   //
+// Note : is is recommended to start from the highest bits  //
+// because dynamic defines used lower bits.                 //
+// Defines common to VS and PS must have the same value     //
+// in both files.                                           //
+//----------------------------------------------------------//
+
+USE_SUN				            0x0008000000000000;
+BOX_ENV0			            0x0008000000000000;
+BOX_ENV1			            0x0008000000000000;
+USE_FOG				            0x0008000000000000;
+USE_SUN_SHADOW		            0x0000800000000000;
+USE_SHADOW_FORWARD              0x0000400000000000;
+MSAA2X							0x0000200000000000;
+USE_SMOG			            0x0000100000000000;
+SUN_SHADOW_2_VIEWPORTS          0x0000080000000000;
+SUN_SHADOW_3_VIEWPORTS          0x0000040000000000;
+USE_VSM                         0x0000020000000000;
+SOFT_PCF                        0x0000010000000000;
+ENABLE_CASCADED_VIEWPORT_FADE   0x0000008000000000;
+USE_RGB10A2						0x0000004000000000;
+USE_LIGHTMAP					0x0000008000000000;
+USE_SH							0x0000001000000000;
+USE_RNM							0x0000000800000000;
